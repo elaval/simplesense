@@ -1,0 +1,48 @@
+{
+  "name": "webduino",
+  "description": "Johnny-five based Web API for Aduino Programming",
+  "version": "0.0.8",
+  "homepage": "https://github.com/elaval/simplesense",
+  "author": {
+    "name": "Ernesto Laval",
+    "email": "ernesto.laval@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elaval/simplesense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elaval/simplesense/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/elaval/simplesense/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/simplesense",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "node-hid":"*",
+    "nconf":"*",
+    "johnny-five":"*",
+    "request":"*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "arduino",
+    "rest",
+    "api",
+    "johnny-five"
+  ]
+}
