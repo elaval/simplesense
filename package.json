@@ -1,7 +1,7 @@
 {
   "name": "simplesense",
   "description": "Data recording service",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/elaval/simplesense",
   "author": {
     "name": "Ernesto Laval",
