@@ -28,10 +28,11 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "node-hid":"*",
-    "nconf":"*",
-    "johnny-five":"*",
-    "request":"*"
+    "node-hid": "*",
+    "nconf": "*",
+    "johnny-five": "*",
+    "request": "*",
+    "underscore":"*"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
@@ -44,5 +45,9 @@
     "rest",
     "api",
     "johnny-five"
-  ]
+  ],
+  "readme": "simplesense\n===========\n\nNode ... monitoring service.  Records data samples read from SLT1 &amp; Tide Makers\n",
+  "readmeFilename": "README.md",
+  "_id": "simplesense@0.0.4",
+  "_from": "simplesense@"
 }
