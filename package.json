@@ -1,7 +1,7 @@
 {
   "name": "simplesense",
   "description": "Data recording service",
-  "version": "0.0.6",
+  "version": "0.0.11",
   "homepage": "https://github.com/elaval/simplesense",
   "author": {
     "name": "Ernesto Laval",
@@ -31,8 +31,10 @@
     "node-hid": "*",
     "nconf": "*",
     "johnny-five": "*",
-    "request": "*",
-    "underscore":"*"
+    "request": "~2.35.0",
+    "underscore": "~1.6.0",
+    "firebase": "~1.0.15-3",
+    "q": "~1.0.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
