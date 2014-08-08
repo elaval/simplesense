@@ -1,0 +1,33 @@
+{
+  "name": "simplesense",
+  "version": "0.0.0",
+  "description": "simplesense ===========",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "~1.0.15-3",
+    "grunt": "~0.4.5",
+    "johnny-five": "~0.7.34",
+    "nconf": "~0.6.9",
+    "node-hid": "~0.3.1",
+    "q": "~1.0.1",
+    "request": "~2.35.0",
+    "underscore": "~1.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.6.5",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elaval/simplesense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elaval/simplesense/issues"
+  },
+  "homepage": "https://github.com/elaval/simplesense"
+}
